@@ -4,3 +4,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:JhonathanOrtizS/Cajachica.git
 git push -u origin main
+
+1. 1ro se ha creado un ssh-key para poder conectarse a Github
+2. se deben establecer 2 archivos ssh uno privado y uno publico
+3. se debe configurar el ssh publico en el perfil de github
