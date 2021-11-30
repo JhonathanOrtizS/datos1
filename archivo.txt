@@ -1,0 +1,19 @@
+Añadir archivos al área de ensayo, git add
+El funcionamiento de git se basa en hacer capturas o instantáneas (snapshots) de
+un proyecto para después poder trabajar con ellas o compararlas. Git tiene un 
+index que actúa como área de ensayo (staging area) de las instantáneas. 
+Esto permite construir series de instantáneas de los archivos creados o modifica
+dos en el proyecto antes de guardarlos en el historial del proyecto. Cuando 
+finalmente se quiere guardar y agrupar estos cambios, se guardan en el historial
+mediante commits.
+
+
+Para ver los cambios de forma más esquematizada:
+
+git status -s
+Con el comando esquematizado, dependiendo de las modificaciones que se hayan 
+hecho y si se han añadido o no al área de ensayo, aparecerá una letra en color 
+verde o rojo:
+
+A Archivo creado y añadido M Archivo modificado y añadido M Archivo modificado 
+y no añadido D Archivo eliminado UU Conflicto entre ramas.
